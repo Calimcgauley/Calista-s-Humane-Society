@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+header{
+    background-color: aqua;
+}
+nav{
+    background-color: white;
+}
+p{
+    padding: 1rem;
+}
+h2{
+    padding: 1rem;
+}
+.grey{
+    background-color: #c7d0d8;
+}
+.fancy::before, .fancy::after{
+    position: absolute;
+    content: url(images/Border.svg);
+    transform: scale(1);
+    width: 2rem;
+    height: 2rem;
+}
+.fancy::before{
+    top: -1rem;
+    left: 0.5rem;
+}
+.fancy::after{
+    transform: rotate(180deg);
+    bottom: -0.5rem;
+    right: 0.5rem;
+}
+.fancy{
+    position: relative;
+}
+nav>a{
+    display: block;
+    background-color: white;
+    border:1px solid aliceblue ;
+
+}
+nav>a:hover{
+    background-color:aliceblue;
+}
+.border::before, .border::after{
+    position: absolute;
+    content: url(images/Border.svg);
+    transform: scale(1);
+    width: 2rem;
+    height: 2rem;
+}
+.border::before{
+    top: -1rem;
+    left: 0.5rem;
+}
+.border::after{
+    transform: rotate(180deg);
+    bottom: -0.5rem;
+    right: 0.5rem;
+}
+.border{
+    position: relative;
+}
