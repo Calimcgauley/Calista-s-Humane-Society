@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="scripts.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,19 +11,20 @@
 <header>
     <img src="images/Untitled design.svg" alt="Calista's Logo">
     <h1>Calista's Humane Society</h1>
-    <nav>
-        <a href="index.html" class="index">Index</a>
-        <a href="about.html" class="about">About</a>
-        <a href="adopt.html" class="adopt">Adopt</a>
-        <a href="donate.html" class="donate">Donate</a>
-        <a href="volunteer.html" class="volunteer">Volunteer</a>
-        <a href="account.html" class="account">Account</a>
+    <p onclick="toggleNav()" >Menu</p>
+    <nav class="toggle-nav">
+    <a href="index.html" class="index">Index</a>
+    <a href="about.html" class="about">About</a>
+    <a href="adopt.html" class="adopt">Adopt</a>
+    <a href="donate.html" class="donate">Donate</a>
+    <a href="volunteer.html" class="volunteer">Volunteer</a>
+    <a href="account.html" class="account">Account</a>
     </nav>
 </header>
 <section class="account">
     <img src="images/Dog over Shoulder.svg" alt="Dog over Shoulder">
-    <img src="images/Dog Icon .svg" alt="Dog Icon">
-    <img src="images/Paw Icon 1.svg" alt="Paw Icon">
+    <img src="images/Dog Icon .svg" alt="Dog Icon" class="sidebyside">
+    <img src="images/Paw Icon 1.svg" alt="Paw Icon" class="sidebyside">
     <h2 class="grey">Account Set Up</h2>
     <p>Pick username and password Make profile Enter perosnal information Turn on notifications for website</p>
     <h2 class="grey">Account Settings</h2>

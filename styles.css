@@ -3,19 +3,38 @@ body{
     font-family:'Courier New', Courier, monospace;
 }
 header{
-    background-color: aqua;
+    background-color: #5ce1e6;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+header>img{
+    flex-basis: 100%;
+}
+header>p{
+    padding: 1rem;
+    background-color: white;
 }
 nav{
     background-color: white;
+    position: absolute;
+    bottom:-7rem;
+    right:-0.5rem;
+    display: none;
+}
+nav.show{
+    display: block;
 }
 p{
     padding: 1rem;
+    text-align: center;
 }
 h2{
     padding: 1rem;
 }
 .grey{
     background-color: #c7d0d8;
+    text-align: center;
 }
 .fancy::before, .fancy::after{
     position: absolute;
@@ -39,8 +58,8 @@ h2{
 nav>a{
     display: block;
     background-color: white;
-    border:1px solid aliceblue ;
-
+    border:1px solid aliceblue;
+    padding: 1rem;
 }
 nav>a:hover{
     background-color:aliceblue;
@@ -63,4 +82,14 @@ nav>a:hover{
 }
 .border{
     position: relative;
+}
+.sidebyside{
+   width: 48%;
+}
+.pup{
+ display: block;
+ margin: auto;
+}
+img{
+    max-width: 100%;
 }
