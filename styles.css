@@ -7,9 +7,14 @@ header{
     display: flex;
     position: relative;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
-header>img{
+header>div{
     flex-basis: 100%;
+    text-align: center;
+}
+header img{
+    max-width: 20rem;
 }
 header>p{
     padding: 1rem;
